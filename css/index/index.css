@@ -1,0 +1,65 @@
+/*PRE-REQUISITES*/
+
+@font-face
+{
+    font-family: Sign;
+    src: url(/resources/global/GreatVibes-Regular.ttf);
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/*BODY*/
+
+body
+{
+    background-color: #333333;
+    display: grid;
+    grid-template-rows: 20vh 70vh 10vh;
+}
+
+
+/*HEADER*/
+
+head
+{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#signature
+{
+    color: white;
+    font-family: Sign;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 5vw;
+    font-weight: normal;
+}
+
+/*MAIN*/
+
+main
+{
+    background-color: white;
+}
+
+/*FOOTER*/
+
+footer
+{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-family: Sign;
+    font-size: 2vw;
+    color: white
+}
+
