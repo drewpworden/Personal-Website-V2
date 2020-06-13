@@ -43,7 +43,7 @@ head
     font-size: 5vw;
     font-weight: normal;
     background-color: white;
-    box-shadow: 0px -10px 64px 48px rgba(0,0,0,0.75);
+    box-shadow: 0px -10px 48px 48px rgba(0,0,0,0.75);
 }
 
 /*MAIN*/
@@ -55,10 +55,36 @@ main
     align-items: center;
 }
 
-#folder-body
+#folder-container
 {
-    height: 70vh;
-    background-color: white;
-    width: 25vw;
-    border-radius:0.25rem;
+    width: 17vw;
+    height: 60vh;
+}
+
+#folder-cover-top
+{
+    height: 60vh;
+    background-color: red;
+    width: 17vw;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    box-shadow: 16px 15px 64px 16px rgba(0,0,0,0.75);
+    position: absolute;
+    z-index: 2;
+}
+
+#folder-cover-bottom
+{
+    height: 60vh;
+    background-color: #624a2e;
+    width: 17vw;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    box-shadow: 16px 15px 64px 16px rgba(0,0,0,0.75);
+    position: absolute;
+    z-index: 3;
 }
